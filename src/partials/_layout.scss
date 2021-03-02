@@ -1,0 +1,59 @@
+
+
+// HEADER //
+
+.header {
+    text-align: center;
+    margin-bottom: 4rem;
+
+    &__title {
+        font-weight: var(--f-weight-200);
+    }
+
+    &__text {
+        line-height: 1.7rem;
+        margin-top: 1rem;
+    }
+}
+
+
+
+
+
+// CARD //
+
+.card {
+    -webkit-box-shadow: 1px 3px 15px 3px rgba(0,0,0,0.11); 
+    box-shadow: 1px 3px 15px 3px rgba(0,0,0,0.11);
+
+    padding: 2rem;
+    max-width: 22.25rem;
+    border-radius: .3rem;
+    border-top: 0.25rem solid black;
+
+    &__img {
+        margin-left: auto;
+        margin-top: 4rem;
+    }
+}
+
+
+
+
+// CARD MODIFIERS //
+
+.card--cyan {
+    border-top-color: var(--clr-cyan);
+}
+
+.card--red {
+    border-top-color: var(--clr-red);
+}
+
+.card--orange {
+    border-top-color: var(--clr-orange);
+}
+
+.card--blue {
+    border-top-color: var(--clr-blue);
+}
