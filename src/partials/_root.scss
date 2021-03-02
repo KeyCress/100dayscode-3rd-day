@@ -1,3 +1,19 @@
 :root {
-    --css-variable-name: ; //use "font-size" name convention.
+    --clr-red: hsl(0, 78%, 62%);
+    --clr-cyan: hsl(180, 62%, 55%);
+    --clr-orange: hsl(34, 97%, 64%);
+    --clr-blue: hsl(212, 86%, 64%);
+
+    --clr-very-dark-blue: hsl(234, 12%, 34%);
+    --clr-grayish-blue: hsl(229, 6%, 66%);
+    --clr-very-light-gray: hsl(0, 0%, 98%);
+
+
+    --f-size: 0.9375rem;
+
+    --f-weight-200: 200;
+    --f-weight-400: 400;
+    --f-weight-600: 600;
+
+    --f-family: 'Poppins', sans-serif;
 }
